@@ -78,7 +78,7 @@ int findFirstElement(double eps)
 void task4()
 {
     double eps;
-    scanf_s("%lf\n", &eps);
+    scanf_s("%lf", &eps);
     int ffe = findFirstElement(eps);
     printf("%d\n", ffe);
 }
@@ -98,7 +98,7 @@ int findFirstNegativeElement(double eps)
 void task5()
 {
     double eps;
-    scanf_s("%lf\n", &eps);
+    scanf_s("%lf", &eps);
     int ffne = findFirstNegativeElement(eps);
     printf("%d\n", ffne);
 }

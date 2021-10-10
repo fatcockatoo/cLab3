@@ -77,7 +77,7 @@ int findFirstElement(double eps)
 void task4()
 {
 	double eps;
-	scanf_s("%lf\n", &eps);
+	scanf_s("%lf", &eps);
 	int ffe = findFirstElement(eps);
 	printf("%d\n", ffe);
 }
@@ -86,7 +86,7 @@ int findFirstNegativeElement(double eps)
 
 	double count = 0;
 	int i = 0;
-	while (true)
+	while (1)
 	{
 		count = pow(-1, i) * (i + 1) / ((pow(2, i)) + (pow(3, i)));
 		i++;
@@ -99,7 +99,7 @@ int findFirstNegativeElement(double eps)
 void task5()
 {
 	double eps;
-	scanf_s("%lf\n", &eps);
+	scanf_s("%lf", &eps);
 	int ffne = findFirstNegativeElement(eps);
 	printf("%d\n", ffne);
 }

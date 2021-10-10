@@ -17,7 +17,7 @@ int findFirstNegativeElement(double eps)
 void main()
 {
     double eps;
-    scanf_s("%lf\n", &eps);
+    scanf_s("%lf", &eps);
     int ffne = findFirstNegativeElement(eps);
     printf("%d\n", ffne);
 }

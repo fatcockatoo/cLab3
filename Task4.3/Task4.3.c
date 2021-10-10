@@ -20,7 +20,7 @@ int findFirstElement(double eps)
 void main()
 {
     double eps;
-    scanf_s("%lf\n", &eps);
+    scanf_s("%lf", &eps);
     int ffe = findFirstElement(eps);
     printf("%d\n", ffe);
 }
